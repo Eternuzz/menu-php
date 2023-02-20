@@ -1,0 +1,77 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 680px;
+}
+
+main{
+    display: flex;
+
+}
+a{
+    border: 1px solid;
+    display: flex;
+    flex-grow: 1;
+    background-image: url(https://i.pinimg.com/originals/c8/67/af/c867af9c7071f8c1d24954afffc054e2.jpg);
+    background-size:  cover;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+a img {
+    height: 0px;
+    flex-grow:  1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+a img:hover {
+    cursor: crosshair ;
+    height: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.menu a{
+    height: 0px;
+    flex-grow:  1;
+    opacity: .8;
+    transition: .5s ease;
+
+}
+.menu a:hover{
+    cursor: crosshair ;
+    height: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.sect1{
+    width: 70rem;
+    height: 42rem;
+    overflow: hidden;
+    margin-left: 2rem;
+    flex-direction: column;
+
+}
+.deco{
+    display: flex;
+    padding: 1rem 1rem;
+    width: 95%;
+    height: 35rem;
+}
+.sect1>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+

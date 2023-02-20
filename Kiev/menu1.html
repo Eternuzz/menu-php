@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        main{
+            display: flex;
+            height: 96vh;
+            border: 1px solid;
+        }
+        .b1{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 35%;
+            border: 1px solid;
+
+        }
+        .sect1{
+            border: 1px solid rgb(0, 0, 0);
+            flex: 0.75;
+            overflow: hidden;
+            flex-direction: column;
+        }
+        #mostrar {
+            border: 1px solid white;
+            flex: 0.75;
+            overflow: hidden;
+            flex-direction: column;
+        }
+
+        .deco {
+            display: flex;
+            padding: 1rem 1rem;
+            background-color: rgba(128, 128, 128, 0.425);
+            width: 40rem;
+            height: 35rem;
+        }
+
+        #mostrar>div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+
+        }
+    </style>
+    <main>
+        <section class="b1">
+            <a href="#1">a</a>
+            <a href="#2">b</a>
+            <a href="#3">c</a>
+            <a href="#4">d</a>
+            <a href="#5">e</a>
+        </section>
+        <section id="mostrar">
+
+            <div id="1">
+                <article class="deco">
+                    <h1>aaaaaaaaaaa</h1>
+                </article>
+            </div>
+            <div id="2">
+                <article class="deco">
+                    <h1>bbbbbbbbbbb</h1>
+                </article>
+            
+            </div>
+            <div id="3">
+                <article class="deco">
+                    <h1>cccccccccc</h1>
+                </article>
+            </div>
+            <div id="4">
+                <article class="deco">
+                    <h1>ddddddd</h1>
+                </article>
+            </div>
+            <div id="5">
+                <article class="deco">
+                    <h1>eeeeeeee</h1>
+                </article>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
